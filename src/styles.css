@@ -1,0 +1,114 @@
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: tomato;
+  }
+  
+    nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li a {
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+
+  footer p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  footer p a {
+    color: lightseagreen;
+  }
+  
+  footer p a:hover {
+    color: blue;
+  }
+  
+  form {
+    margin: 20px;
+    padding: 10px;
+    max-width: 300px;
+    border: 1px solid lightgray;
+    background-color: white;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  form button {
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  /*Footing*/
+  
+  .Footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /*Secciones*/
+
+  #cocinas {
+    background-color: lightcoral;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  #salas {
+    background-color: lightseagreen;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  #dormitorios {
+    background-color: lightskyblue;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .section-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+  } 
+  
